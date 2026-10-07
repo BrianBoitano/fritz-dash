@@ -1,0 +1,10 @@
+# A level file for /data/fritzdash/levels, to check that files load on the console.
+name: SAMPLE FILE LEVEL
+author: DAD
+speed: 0
+colors: #280228 #700a5c #2a042a #ffe600
+
+map:
+.................................................................
+.................................................................
+..............^.........^^...........#..........y.........^....|

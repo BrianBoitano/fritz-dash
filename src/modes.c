@@ -1,0 +1,116 @@
+// Fritz Dash - every mode and every 3.2 object, by number. A new mode is its
+// own src/mode_<name>.c defining MODE_<NAME>_DEF plus its line below; its
+// MODE_ and OBJ_PORTAL_ numbers are already reserved in level.h. A new
+// object is an ObjDef (in its mode's file or its own), its OBJ_ number in
+// its block in level.h and its line below. See docs/MODES.md.
+#include <stddef.h>
+
+#include "mode.h"
+
+extern const ModeDef MODE_CUBE_DEF, MODE_SHIP_DEF, MODE_BALL_DEF, MODE_UFO_DEF, MODE_WAVE_DEF;
+extern const ModeDef MODE_ROBOT_DEF, MODE_SPIDER_DEF, MODE_SWING_DEF, MODE_JETPACK_DEF, MODE_BUNNY_DEF;
+extern const ModeDef MODE_GLIDER_DEF, MODE_FROG_DEF, MODE_DASHER_DEF, MODE_BLINK_DEF, MODE_GRAPPLE_DEF;
+extern const ModeDef MODE_DRILL_DEF, MODE_SURFER_DEF, MODE_BALLOON_DEF, MODE_HELI_DEF, MODE_POGO_DEF;
+extern const ModeDef MODE_MAGNET_DEF, MODE_SLIME_DEF, MODE_CANNON_DEF, MODE_TWIN_DEF, MODE_GHOST_DEF;
+extern const ModeDef MODE_COLOR_SWAP_DEF, MODE_BLASTER_DEF, MODE_TIME_BENDER_DEF, MODE_SKATER_DEF,
+    MODE_SHAPESHIFTER_DEF;
+
+const ModeDef *const MODES[MODE_COUNT] = {
+    [MODE_CUBE] = &MODE_CUBE_DEF,
+    [MODE_SHIP] = &MODE_SHIP_DEF,
+    [MODE_BALL] = &MODE_BALL_DEF,
+    [MODE_UFO] = &MODE_UFO_DEF,
+    [MODE_WAVE] = &MODE_WAVE_DEF,
+
+    // Stage 1 (modes 1-5)
+    [MODE_ROBOT] = &MODE_ROBOT_DEF,
+    [MODE_SPIDER] = &MODE_SPIDER_DEF,
+    [MODE_SWING] = &MODE_SWING_DEF,
+    [MODE_JETPACK] = &MODE_JETPACK_DEF,
+    [MODE_BUNNY] = &MODE_BUNNY_DEF,
+
+    // Pack A (modes 6-15): uncomment a line when its mode_<name>.c exists.
+    [MODE_GLIDER] = &MODE_GLIDER_DEF,
+    [MODE_FROG] = &MODE_FROG_DEF,
+    [MODE_DASHER] = &MODE_DASHER_DEF,
+    [MODE_BLINK] = &MODE_BLINK_DEF,
+    [MODE_GRAPPLE] = &MODE_GRAPPLE_DEF,
+    [MODE_DRILL] = &MODE_DRILL_DEF,
+    [MODE_SURFER] = &MODE_SURFER_DEF,
+    [MODE_BALLOON] = &MODE_BALLOON_DEF,
+    [MODE_HELI] = &MODE_HELI_DEF,
+    [MODE_POGO] = &MODE_POGO_DEF,
+
+    // Pack B (modes 16-25)
+    [MODE_MAGNET] = &MODE_MAGNET_DEF,
+    [MODE_SLIME] = &MODE_SLIME_DEF,
+    [MODE_CANNON] = &MODE_CANNON_DEF,
+    [MODE_TWIN] = &MODE_TWIN_DEF,
+    [MODE_GHOST] = &MODE_GHOST_DEF,
+    [MODE_COLOR_SWAP] = &MODE_COLOR_SWAP_DEF,
+    [MODE_BLASTER] = &MODE_BLASTER_DEF,
+    [MODE_TIME_BENDER] = &MODE_TIME_BENDER_DEF,
+    [MODE_SKATER] = &MODE_SKATER_DEF,
+    [MODE_SHAPESHIFTER] = &MODE_SHAPESHIFTER_DEF,
+};
+
+const ModeDef *mode_def(int mode)
+{
+    return mode >= 0 && mode < MODE_COUNT && MODES[mode] ? MODES[mode] : &MODE_CUBE_DEF;
+}
+
+extern const ObjDef OBJ_SHIFTER_DEF, OBJ_MYSTERY_DEF;
+extern const ObjDef OBJ_FAN_DEF, OBJ_DASH_CRYSTAL_DEF, OBJ_ANCHOR_DEF, OBJ_DIRT_DEF, OBJ_WATER_DEF;
+extern const ObjDef OBJ_MIRROR_DEF, OBJ_FLIP_DEF, OBJ_ZOOM_DEF, OBJ_SHAKE_DEF, OBJ_RAINBOW_DEF, OBJ_INVERT_DEF,
+    OBJ_MORPH_BLOCKS_DEF, OBJ_THEME_DEF;
+// Pack B
+extern const ObjDef OBJ_BARREL_DEF, OBJ_GHOST_WALL_DEF, OBJ_PINK_BLOCK_DEF, OBJ_BLUE_BLOCK_DEF, OBJ_PINK_GATE_DEF,
+    OBJ_BLUE_GATE_DEF, OBJ_CRATE_DEF, OBJ_TARGET_DEF, OBJ_RAIL_DEF;
+extern const ObjDef OBJ_EGG_DEF, OBJ_FAKE_WALL_DEF, OBJ_FAKE_FLOOR_DEF, OBJ_EGG_NOJUMP_DEF, OBJ_EGG_MINI_DEF,
+    OBJ_EGG_UPSIDE_DEF, OBJ_EGG_ORBS_DEF;
+
+const ObjDef *const OBJECTS[OBJ_COUNT] = {
+    // Stage 1: transforming portals and level transformations
+    [OBJ_SHIFTER] = &OBJ_SHIFTER_DEF,
+    [OBJ_MYSTERY] = &OBJ_MYSTERY_DEF,
+    [OBJ_MIRROR] = &OBJ_MIRROR_DEF,
+    [OBJ_FLIP] = &OBJ_FLIP_DEF,
+    [OBJ_ZOOM] = &OBJ_ZOOM_DEF,
+    [OBJ_SHAKE] = &OBJ_SHAKE_DEF,
+    [OBJ_RAINBOW] = &OBJ_RAINBOW_DEF,
+    [OBJ_INVERT] = &OBJ_INVERT_DEF,
+    [OBJ_MORPH_BLOCKS] = &OBJ_MORPH_BLOCKS_DEF,
+    [OBJ_THEME] = &OBJ_THEME_DEF,
+
+    // Pack A objects (OBJ_PACK_A + n)
+    [OBJ_FAN] = &OBJ_FAN_DEF,
+    [OBJ_DASH_CRYSTAL] = &OBJ_DASH_CRYSTAL_DEF,
+    [OBJ_ANCHOR] = &OBJ_ANCHOR_DEF,
+    [OBJ_DIRT] = &OBJ_DIRT_DEF,
+    [OBJ_WATER] = &OBJ_WATER_DEF,
+
+    // Pack B objects (OBJ_PACK_B + n)
+    [OBJ_BARREL] = &OBJ_BARREL_DEF,
+    [OBJ_GHOST_WALL] = &OBJ_GHOST_WALL_DEF,
+    [OBJ_PINK_BLOCK] = &OBJ_PINK_BLOCK_DEF,
+    [OBJ_BLUE_BLOCK] = &OBJ_BLUE_BLOCK_DEF,
+    [OBJ_PINK_GATE] = &OBJ_PINK_GATE_DEF,
+    [OBJ_BLUE_GATE] = &OBJ_BLUE_GATE_DEF,
+    [OBJ_CRATE] = &OBJ_CRATE_DEF,
+    [OBJ_TARGET] = &OBJ_TARGET_DEF,
+    [OBJ_RAIL] = &OBJ_RAIL_DEF,
+
+    // Easter egg objects (OBJ_EGGS + n)
+    [OBJ_EGG] = &OBJ_EGG_DEF,
+    [OBJ_FAKE_WALL] = &OBJ_FAKE_WALL_DEF,
+    [OBJ_FAKE_FLOOR] = &OBJ_FAKE_FLOOR_DEF,
+    [OBJ_EGG_NOJUMP] = &OBJ_EGG_NOJUMP_DEF,
+    [OBJ_EGG_MINI] = &OBJ_EGG_MINI_DEF,
+    [OBJ_EGG_UPSIDE] = &OBJ_EGG_UPSIDE_DEF,
+    [OBJ_EGG_ORBS] = &OBJ_EGG_ORBS_DEF,
+};
+
+const ObjDef *obj_def(int type)
+{
+    return type > OBJ_NONE && type < OBJ_COUNT ? OBJECTS[type] : NULL;
+}

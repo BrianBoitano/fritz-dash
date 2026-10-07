@@ -1,0 +1,190 @@
+# COLOR SWAP: tap X to swap pink and blue. Only blocks and gates of your
+# colour are solid: stand on your colour, slip through the other gates.
+name: PAINT PARTY
+author: DAD
+speed: 1
+song: 0
+colors: #140014 #401050 #1c0820 #ff60c0
+
+map:
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+......^...........
+portal color_swap 14 1
+
+map:
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+obj pink_gate 8 0
+obj pink_gate 8 1
+obj pink_gate 8 2
+obj pink_gate 8 3
+obj blue_gate 18 0
+obj blue_gate 18 1
+obj blue_gate 18 2
+obj blue_gate 18 3
+obj pink_gate 28 0
+obj pink_gate 28 1
+obj pink_gate 28 2
+obj pink_gate 28 3
+obj blue_gate 36 0
+obj blue_gate 36 1
+obj blue_gate 36 2
+obj blue_gate 36 3
+obj pink_gate 42 0
+obj pink_gate 42 1
+obj pink_gate 42 2
+obj pink_gate 42 3
+obj blue_gate 47 0
+obj blue_gate 47 1
+obj blue_gate 47 2
+obj blue_gate 47 3
+obj pink_gate 52 0
+obj pink_gate 52 1
+obj pink_gate 52 2
+obj pink_gate 52 3
+
+map:
+........................................................................
+........................................................................
+........................................................................
+........................................................................
+........................................................................
+........................................................................
+........................................................................
+...........##......##......##......###########......##..................
+........................................................................
+..y...^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.....
+obj pink_block 5 2
+obj pink_block 6 2
+obj pink_block 7 2
+obj pink_block 8 2
+obj pink_block 9 2
+obj pink_block 10 2
+obj blue_block 13 2
+obj blue_block 14 2
+obj blue_block 15 2
+obj blue_block 16 2
+obj blue_block 17 2
+obj blue_block 18 2
+obj pink_block 21 2
+obj pink_block 22 2
+obj pink_block 23 2
+obj pink_block 24 2
+obj pink_block 25 2
+obj pink_block 26 2
+obj blue_block 29 2
+obj blue_block 30 2
+obj blue_block 31 2
+obj blue_block 32 2
+obj blue_block 33 2
+obj blue_block 34 2
+obj blue_gate 43 3
+obj blue_gate 43 4
+obj blue_gate 43 5
+obj blue_gate 43 6
+obj pink_block 46 2
+obj pink_block 47 2
+obj pink_block 48 2
+obj pink_block 49 2
+obj pink_block 50 2
+obj pink_block 51 2
+obj blue_block 54 2
+obj blue_block 55 2
+obj blue_block 56 2
+obj blue_block 57 2
+obj blue_block 58 2
+obj blue_block 59 2
+obj blue_block 60 2
+obj blue_block 61 2
+obj blue_block 62 2
+obj blue_block 63 2
+obj blue_block 64 2
+obj blue_block 65 2
+obj blue_block 66 2
+obj pink_gate 61 3
+obj pink_gate 61 4
+obj pink_gate 61 5
+obj pink_gate 61 6
+
+map:
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+....######..................####............................
+............................................................
+.y........^^^^^^^^^^^^^^^^^^................................
+obj blue_block 10 2
+obj blue_block 11 2
+obj blue_block 12 2
+obj blue_block 13 2
+obj blue_block 14 2
+obj blue_block 15 2
+obj blue_block 16 2
+obj blue_block 17 2
+obj blue_block 18 2
+obj blue_block 19 2
+obj blue_block 20 2
+obj blue_block 21 2
+obj blue_block 22 2
+obj blue_block 23 2
+obj blue_block 24 2
+obj blue_block 25 2
+obj blue_block 26 2
+obj blue_block 27 2
+obj pink_gate 20 3
+obj pink_gate 20 4
+obj pink_gate 20 5
+obj pink_gate 20 6
+obj blue_block 32 2
+obj blue_block 33 2
+obj blue_block 34 2
+obj blue_block 35 2
+obj blue_block 36 2
+obj blue_block 37 2
+obj blue_block 38 2
+obj blue_block 39 2
+obj blue_gate 36 3
+obj blue_gate 36 4
+obj blue_gate 36 5
+obj blue_gate 36 6
+obj blue_gate 46 0
+obj blue_gate 46 1
+obj blue_gate 46 2
+obj blue_gate 46 3
+obj pink_gate 52 0
+obj pink_gate 52 1
+obj pink_gate 52 2
+obj pink_gate 52 3
+
+map:
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............^.......^......|
+portal cube 3 1

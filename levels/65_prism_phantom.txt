@@ -1,0 +1,757 @@
+# Hook: every wall has a way through - swap colour to slip a gate, go ghost through a wall, blast the crates.
+# Sections: cube warm-up, COLOR SWAP gates and bridges, GHOST walls (INVERT), BLASTER crates,
+# then a RAINBOW climax that swaps between all three, and a calm finish.
+name: PRISM PHANTOM
+author: FRITZ DASH
+speed: 1
+stars: 6
+song: 6
+colors: #1a0630 #5a1a7a #24083c #ff7af0
+# mood: spooky paint party
+egg: 1 PAINT POT | ON THE LAST LONG BLUE FLOOR, TURN PINK AND DROP
+egg: 2 BOO ROOM | FLOAT UP THROUGH THE GHOSTLY ROOF
+egg: 3 SHARP SHOOTER | CROSS THE LAST CRATES WITHOUT ONE JUMP: SHOOT THEM ALL
+
+map:
+............................................................#................+..
+............................................................#...+.++
+............................................................#...........+
+............................................................#...~~~~~~~~~~~~~~~~
+............................................................#
+............................................................#
+......................................).).).................#
+............................................................#
+.
+.
+..&...&...&...^......^^.....###^^...###....y.^^.......^
+obj theme_morph 60 0 c=7
+portal color_swap 60 1
+obj pink_gate 70 0
+obj pink_gate 70 1
+obj pink_gate 70 2
+obj pink_gate 70 3
+obj pink_gate 70 4
+obj blue_gate 77 0
+obj blue_gate 77 1
+obj blue_gate 77 2
+obj blue_gate 77 3
+obj blue_gate 77 4
+
+map:
+.......+...........................c..........+.................................
+.................+..............................+.....+.................+
+........+
+..+..+....+...+..............+...+....++...+..............+..................+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.
+.
+.
+.
+...........................................###......###......###......#####
+.
+..................................y.^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+obj pink_gate 3 0
+obj pink_gate 3 1
+obj pink_gate 3 2
+obj pink_gate 3 3
+obj pink_gate 3 4
+obj blue_gate 9 0
+obj blue_gate 9 1
+obj blue_gate 9 2
+obj blue_gate 9 3
+obj blue_gate 9 4
+obj pink_gate 14 0
+obj pink_gate 14 1
+obj pink_gate 14 2
+obj pink_gate 14 3
+obj pink_gate 14 4
+obj pink_gate 20 0
+obj pink_gate 20 1
+obj pink_gate 20 2
+obj pink_gate 20 3
+obj pink_gate 20 4
+obj blue_gate 26 0
+obj blue_gate 26 1
+obj blue_gate 26 2
+obj blue_gate 26 3
+obj blue_gate 26 4
+obj pink_block 37 2
+obj pink_block 38 2
+obj pink_block 39 2
+obj pink_block 40 2
+obj pink_block 41 2
+obj pink_block 42 2
+obj blue_block 46 2
+obj blue_block 47 2
+obj blue_block 48 2
+obj blue_block 49 2
+obj blue_block 50 2
+obj blue_block 51 2
+obj pink_block 55 2
+obj pink_block 56 2
+obj pink_block 57 2
+obj pink_block 58 2
+obj pink_block 59 2
+obj pink_block 60 2
+obj blue_block 64 2
+obj blue_block 65 2
+obj blue_block 66 2
+obj blue_block 67 2
+obj blue_block 68 2
+obj blue_block 69 2
+obj blue_gate 72 3
+obj blue_gate 72 4
+obj blue_gate 72 5
+obj blue_gate 72 6
+obj blue_block 75 2
+obj blue_block 76 2
+obj blue_block 77 2
+obj blue_block 78 2
+obj blue_block 79 2
+
+map:
+........................................................................h.......
+.....................+....+..................+..................+
+..........+............+............+.....+
+...................+..........+
+.
+...................................................$
+.
+.................................................o
+.......................................................................y
+.
+.
+^^^w.....w..........y.^^.........y.^^.........y.^^............y.^^^^^^^^^^^^^^^^
+obj blue_block 0 2
+obj blue_block 1 2
+obj pink_gate 1 3
+obj pink_gate 1 4
+obj pink_gate 1 5
+obj pink_gate 1 6
+obj blue_block 2 2
+obj blue_block 3 2
+obj blue_block 4 2
+obj blue_block 5 2
+obj egg 6 0 c=1
+obj blue_block 6 2
+obj blue_block 7 2
+obj blue_block 8 2
+obj blue_block 9 2
+obj pink_gate 30 0
+obj pink_gate 30 1
+obj pink_gate 30 2
+obj pink_gate 30 3
+obj pink_gate 30 4
+obj pink_gate 30 5
+obj pink_gate 30 6
+obj blue_gate 43 0
+obj blue_gate 43 1
+obj blue_gate 43 2
+obj blue_gate 43 3
+obj blue_gate 43 4
+obj blue_gate 43 5
+obj blue_gate 43 6
+obj pink_gate 56 0
+obj pink_gate 56 1
+obj pink_gate 56 2
+obj pink_gate 56 3
+obj pink_gate 56 4
+obj pink_gate 56 5
+obj pink_gate 56 6
+obj pink_block 66 2
+obj pink_block 67 2
+obj pink_block 68 2
+obj pink_block 69 2
+obj pink_block 70 2
+obj pink_block 71 2
+obj blue_block 74 5
+obj blue_block 75 5
+obj blue_block 76 5
+obj blue_block 77 5
+obj blue_block 78 5
+obj blue_block 79 5
+
+map:
+......................................................+.........................
+................................+.............................+
+..............+...........#..........+.............+.+.............+
+....................+.....#....+................................+
+.............+............#
+..........................#.....vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+..........................#
+..........................#
+..........................#.........................$
+..........................#
+.
+.
+^^^^^^^^^^^^^^^^^^^.....................^...........^...........^^..........^
+obj blue_block 0 5
+obj blue_block 1 5
+obj pink_block 3 3
+obj pink_block 4 3
+obj pink_block 5 3
+obj pink_block 6 3
+obj pink_block 7 3
+obj pink_block 8 3
+obj pink_block 9 3
+obj blue_block 11 1
+obj blue_block 12 1
+obj blue_block 13 1
+obj blue_block 14 1
+obj blue_block 15 1
+obj blue_block 16 1
+obj blue_block 17 1
+obj theme_morph 26 0 c=6
+portal ghost 26 1
+obj invert 28 0 c=1
+obj ghost_wall 34 0
+obj ghost_wall 34 1
+obj ghost_wall 34 2
+obj ghost_wall 34 3
+obj ghost_wall 34 4
+obj ghost_wall 34 5
+obj ghost_wall 35 0
+obj ghost_wall 35 1
+obj ghost_wall 35 2
+obj ghost_wall 35 3
+obj ghost_wall 35 4
+obj ghost_wall 35 5
+obj ghost_wall 46 0
+obj ghost_wall 46 1
+obj ghost_wall 46 2
+obj ghost_wall 46 3
+obj ghost_wall 46 4
+obj ghost_wall 46 5
+obj ghost_wall 47 0
+obj ghost_wall 47 1
+obj ghost_wall 47 2
+obj ghost_wall 47 3
+obj ghost_wall 47 4
+obj ghost_wall 47 5
+obj ghost_wall 58 0
+obj ghost_wall 58 1
+obj ghost_wall 58 2
+obj ghost_wall 58 3
+obj ghost_wall 58 4
+obj ghost_wall 58 5
+obj ghost_wall 59 0
+obj ghost_wall 59 1
+obj ghost_wall 59 2
+obj ghost_wall 59 3
+obj ghost_wall 59 4
+obj ghost_wall 59 5
+obj ghost_wall 70 0
+obj ghost_wall 70 1
+obj ghost_wall 70 2
+obj ghost_wall 70 3
+obj ghost_wall 70 4
+obj ghost_wall 70 5
+obj ghost_wall 71 0
+obj ghost_wall 71 1
+obj ghost_wall 71 2
+obj ghost_wall 71 3
+obj ghost_wall 71 4
+obj ghost_wall 71 5
+
+map:
+...............................................................+................
+....d...............................................+
+.
+...............+...............+
+.............................................................................+
+..........vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.........#####################
+.
+.
+.
+.
+.
+.
+......^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^................^
+obj ghost_wall 6 1
+obj ghost_wall 7 1
+obj ghost_wall 8 1
+obj ghost_wall 9 1
+obj ghost_wall 10 1
+obj ghost_wall 11 1
+obj ghost_wall 12 1
+obj ghost_wall 13 1
+obj ghost_wall 14 1
+obj ghost_wall 15 1
+obj ghost_wall 16 1
+obj ghost_wall 16 2
+obj ghost_wall 16 3
+obj ghost_wall 17 1
+obj ghost_wall 17 2
+obj ghost_wall 17 3
+obj ghost_wall 18 1
+obj ghost_wall 19 1
+obj ghost_wall 20 1
+obj ghost_wall 21 1
+obj ghost_wall 22 1
+obj ghost_wall 23 1
+obj ghost_wall 24 1
+obj ghost_wall 25 1
+obj ghost_wall 26 1
+obj ghost_wall 27 1
+obj ghost_wall 28 1
+obj ghost_wall 28 2
+obj ghost_wall 28 3
+obj ghost_wall 29 1
+obj ghost_wall 29 2
+obj ghost_wall 29 3
+obj ghost_wall 30 1
+obj ghost_wall 31 1
+obj ghost_wall 32 1
+obj ghost_wall 33 1
+obj ghost_wall 34 1
+obj ghost_wall 35 1
+obj ghost_wall 36 1
+obj ghost_wall 37 1
+obj ghost_wall 38 1
+obj ghost_wall 39 1
+obj ghost_wall 40 1
+obj ghost_wall 40 2
+obj ghost_wall 40 3
+obj ghost_wall 41 1
+obj ghost_wall 41 2
+obj ghost_wall 41 3
+obj ghost_wall 42 1
+obj ghost_wall 43 1
+obj ghost_wall 44 1
+obj ghost_wall 45 1
+obj ghost_wall 46 1
+obj ghost_wall 47 1
+obj ghost_wall 48 1
+obj ghost_wall 49 1
+obj ghost_wall 50 1
+obj ghost_wall 51 1
+obj ghost_wall 60 4
+obj ghost_wall 61 4
+obj ghost_wall 62 4
+obj ghost_wall 63 4
+obj ghost_wall 64 4
+obj ghost_wall 65 4
+obj ghost_wall 66 4
+obj ghost_wall 67 4
+obj ghost_wall 68 4
+obj ghost_wall 69 4
+obj ghost_wall 70 4
+obj ghost_wall 71 4
+obj egg 71 5 c=2
+obj ghost_wall 72 4
+obj ghost_wall 73 4
+obj ghost_wall 74 4
+obj ghost_wall 75 4
+obj ghost_wall 76 4
+obj ghost_wall 77 4
+obj ghost_wall 78 4
+
+map:
+.........+.........................+.................................+..........
+.......................................e....+................................+
+....##############################...++......+...........+
+..................++......................................................+
+........................................................######
+...................................................######
+..............................................######
+.........................................######
+..............................................................#######
+.
+.
+.
+..........^^^.........^^^...............^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+obj ghost_wall 6 0
+obj ghost_wall 6 1
+obj ghost_wall 6 2
+obj ghost_wall 6 3
+obj ghost_wall 6 4
+obj ghost_wall 6 5
+obj ghost_wall 6 6
+obj ghost_wall 6 7
+obj ghost_wall 6 8
+obj ghost_wall 6 9
+obj ghost_wall 7 0
+obj ghost_wall 7 1
+obj ghost_wall 7 2
+obj ghost_wall 7 3
+obj ghost_wall 7 4
+obj ghost_wall 7 5
+obj ghost_wall 7 6
+obj ghost_wall 7 7
+obj ghost_wall 7 8
+obj ghost_wall 7 9
+obj ghost_wall 18 0
+obj ghost_wall 18 1
+obj ghost_wall 18 2
+obj ghost_wall 18 3
+obj ghost_wall 18 4
+obj ghost_wall 18 5
+obj ghost_wall 18 6
+obj ghost_wall 18 7
+obj ghost_wall 18 8
+obj ghost_wall 18 9
+obj ghost_wall 19 0
+obj ghost_wall 19 1
+obj ghost_wall 19 2
+obj ghost_wall 19 3
+obj ghost_wall 19 4
+obj ghost_wall 19 5
+obj ghost_wall 19 6
+obj ghost_wall 19 7
+obj ghost_wall 19 8
+obj ghost_wall 19 9
+obj ghost_wall 30 0
+obj ghost_wall 30 1
+obj ghost_wall 30 2
+obj ghost_wall 30 3
+obj ghost_wall 30 4
+obj ghost_wall 30 5
+obj ghost_wall 30 6
+obj ghost_wall 30 7
+obj ghost_wall 30 8
+obj ghost_wall 30 9
+obj ghost_wall 31 0
+obj ghost_wall 31 1
+obj ghost_wall 31 2
+obj ghost_wall 31 3
+obj ghost_wall 31 4
+obj ghost_wall 31 5
+obj ghost_wall 31 6
+obj ghost_wall 31 7
+obj ghost_wall 31 8
+obj ghost_wall 31 9
+obj ghost_wall 42 1
+obj ghost_wall 43 1
+obj ghost_wall 44 1
+obj ghost_wall 45 1
+obj ghost_wall 47 2
+obj ghost_wall 48 2
+obj ghost_wall 49 2
+obj ghost_wall 50 2
+obj ghost_wall 52 3
+obj ghost_wall 53 3
+obj ghost_wall 54 3
+obj ghost_wall 55 3
+obj ghost_wall 57 4
+obj ghost_wall 58 4
+obj ghost_wall 59 4
+obj ghost_wall 60 4
+obj ghost_wall 71 2
+obj ghost_wall 72 2
+obj ghost_wall 73 2
+obj ghost_wall 74 2
+obj ghost_wall 76 1
+obj ghost_wall 77 1
+obj ghost_wall 78 1
+obj ghost_wall 79 1
+
+map:
+.......................+......................................+.............+.+.
+......#..........+..................+...................+
+......#
+......#..+...................................................................+
+......#..................................................+
+......#...........................+...............................+........+
+......#
+......#
+......#.....................................................%%%%%%%%%%%%%%%%%%%%
+.
+..........................................................######################
+.
+obj invert 6 0 c=0
+portal blaster 6 1
+obj theme_morph 7 0 c=5
+obj crate 16 0
+obj crate 16 1
+obj crate 16 2
+obj crate 26 0
+obj crate 26 1
+obj crate 26 2
+obj crate 36 0
+obj crate 36 1
+obj crate 36 2
+obj crate 46 0
+obj crate 46 1
+obj crate 46 2
+obj crate 47 0
+obj crate 47 1
+obj crate 47 2
+obj crate 64 0
+obj crate 71 0
+obj crate 77 0
+obj crate 78 0
+
+map:
+.....................+....................e..............+.........+............
+...........+..............................................+
+..................................................+
+..........................+.+.........................+..............+
+................................................................$
+....+
+.
+..............................................................o
+%%%%%%%
+.
+###########......).).)
+..........................................^^^^^^^^^^^^^^^^^^^^^^^^^^
+obj crate 4 0
+obj target 22 2 g=1
+obj crate 36 0 g=1
+obj crate 36 1 g=1
+obj crate 36 2 g=1
+obj crate 36 3 g=1
+obj crate 36 4 g=1
+obj crate 36 5 g=1
+obj crate 37 0 g=1
+obj crate 37 1 g=1
+obj crate 37 2 g=1
+obj crate 37 3 g=1
+obj crate 37 4 g=1
+obj crate 37 5 g=1
+obj crate 45 0
+obj crate 45 1
+obj crate 46 0
+obj crate 46 1
+obj crate 50 0
+obj crate 50 1
+obj crate 51 0
+obj crate 51 1
+obj crate 55 0
+obj crate 55 1
+obj crate 55 2
+obj crate 55 3
+obj crate 55 4
+obj crate 56 0
+obj crate 56 1
+obj crate 60 0
+obj crate 60 1
+obj crate 61 0
+obj crate 61 1
+obj crate 65 0
+obj crate 65 1
+obj crate 66 0
+obj crate 66 1
+
+map:
+......................+.............+...........................................
+.................................+..............#.........................#
+....+..............+........+...................#.........................#
+..............+....................+............#.........................#
+.+...................+.....+.+..................#.........................#..vvv
+.....+...+.....+..........+.....................#.........................#
+................................................#.........................#
+................................................#.........................#
+................................................#.........................#
+.....................################
+.
+................^^........................^
+obj target 2 2 g=2
+obj crate 12 0 g=2
+obj crate 12 1 g=2
+obj crate 12 2 g=2
+obj crate 12 3 g=2
+obj crate 12 4 g=2
+obj crate 12 5 g=2
+obj crate 13 0 g=2
+obj crate 13 1 g=2
+obj crate 13 2 g=2
+obj crate 13 3 g=2
+obj crate 13 4 g=2
+obj crate 13 5 g=2
+obj target 26 0 g=3
+obj crate 38 0 g=3
+obj crate 38 1 g=3
+obj crate 38 2 g=3
+obj crate 38 3 g=3
+obj crate 38 4 g=3
+obj crate 38 5 g=3
+obj crate 39 0 g=3
+obj crate 39 1 g=3
+obj crate 39 2 g=3
+obj crate 39 3 g=3
+obj crate 39 4 g=3
+obj crate 39 5 g=3
+obj rainbow 48 0 c=1
+portal color_swap 48 1
+obj theme_morph 49 0 c=3
+obj pink_gate 53 0
+obj pink_gate 53 1
+obj pink_gate 53 2
+obj pink_gate 53 3
+obj pink_gate 53 4
+obj blue_gate 58 0
+obj blue_gate 58 1
+obj blue_gate 58 2
+obj blue_gate 58 3
+obj blue_gate 58 4
+obj pink_gate 63 0
+obj pink_gate 63 1
+obj pink_gate 63 2
+obj pink_gate 63 3
+obj pink_gate 63 4
+obj blue_gate 68 0
+obj blue_gate 68 1
+obj blue_gate 68 2
+obj blue_gate 68 3
+obj blue_gate 68 4
+portal ghost 74 1
+obj ghost_wall 79 0
+obj ghost_wall 79 1
+obj ghost_wall 79 2
+obj ghost_wall 79 3
+obj ghost_wall 79 4
+obj ghost_wall 79 5
+
+map:
+............................i...................................................
+............#.................#...........................#
+............#.................#...........................#
+............#.................#...........................#
+vvvvvvvvvvv.#.................#...........................#..vvvvvvvvvvvvvv
+............#.................#...........................#
+............#.................#...........................#
+............#.................#...........................#
+............#.................#...........................#
+.........................................##....##
+.
+...^...................^..........y.^^^^^^^^^^^^^^^^^^.......^^^^^^^^^^^^^^^^
+obj ghost_wall 0 0
+obj ghost_wall 0 1
+obj ghost_wall 0 2
+obj ghost_wall 0 3
+obj ghost_wall 0 4
+obj ghost_wall 0 5
+obj ghost_wall 7 0
+obj ghost_wall 7 1
+obj ghost_wall 7 2
+obj ghost_wall 7 3
+obj ghost_wall 7 4
+obj ghost_wall 7 5
+obj ghost_wall 8 0
+obj ghost_wall 8 1
+obj ghost_wall 8 2
+obj ghost_wall 8 3
+obj ghost_wall 8 4
+obj ghost_wall 8 5
+portal blaster 12 1
+obj crate 19 0
+obj crate 19 1
+obj crate 19 2
+obj crate 27 0
+obj crate 27 1
+portal color_swap 30 1
+obj pink_block 37 2
+obj pink_block 38 2
+obj pink_block 39 2
+obj pink_block 40 2
+obj blue_block 43 2
+obj blue_block 44 2
+obj blue_block 45 2
+obj blue_block 46 2
+obj pink_block 49 2
+obj pink_block 50 2
+obj pink_block 51 2
+obj pink_block 52 2
+portal ghost 58 1
+obj ghost_wall 61 1
+obj ghost_wall 62 1
+obj ghost_wall 63 1
+obj ghost_wall 64 1
+obj ghost_wall 65 1
+obj ghost_wall 66 1
+obj ghost_wall 67 1
+obj ghost_wall 67 2
+obj ghost_wall 67 3
+obj ghost_wall 68 1
+obj ghost_wall 68 2
+obj ghost_wall 68 3
+obj ghost_wall 69 1
+obj ghost_wall 70 1
+obj ghost_wall 71 1
+obj ghost_wall 72 1
+obj ghost_wall 73 1
+obj ghost_wall 74 1
+obj ghost_wall 75 1
+obj ghost_wall 76 1
+
+map:
+..................l.............................................................
+#...................#...................#.#########.....#
+#...................#...................#...............#
+#...................#...................#...............#
+#...................#...................#...............#
+#...................#...................#...............#
+#...................#...................#...............#
+#...................#...................#...............#
+#...................#...................#...............#
+.
+.....############
+.................................................^^
+portal blaster 0 1
+obj crate 9 0
+obj crate 13 0
+portal color_swap 20 1
+obj blue_gate 25 0
+obj blue_gate 25 1
+obj blue_gate 25 2
+obj blue_gate 25 3
+obj blue_gate 25 4
+obj pink_gate 29 0
+obj pink_gate 29 1
+obj pink_gate 29 2
+obj pink_gate 29 3
+obj pink_gate 29 4
+obj blue_gate 33 0
+obj blue_gate 33 1
+obj blue_gate 33 2
+obj blue_gate 33 3
+obj blue_gate 33 4
+portal ghost 40 1
+obj ghost_wall 45 0
+obj ghost_wall 45 1
+obj ghost_wall 45 2
+obj ghost_wall 45 3
+obj ghost_wall 45 4
+obj ghost_wall 45 5
+obj ghost_wall 45 6
+obj ghost_wall 45 7
+obj ghost_wall 45 8
+obj ghost_wall 45 9
+obj ghost_wall 46 0
+obj ghost_wall 46 1
+obj ghost_wall 46 2
+obj ghost_wall 46 3
+obj ghost_wall 46 4
+obj ghost_wall 46 5
+obj ghost_wall 46 6
+obj ghost_wall 46 7
+obj ghost_wall 46 8
+obj ghost_wall 46 9
+portal blaster 56 1
+obj egg_nojump 59 0 c=3 dx=20
+obj crate 61 0
+obj crate 61 1
+obj crate 61 2
+obj crate 65 0
+obj crate 65 1
+obj crate 69 0
+obj crate 73 0
+obj crate 73 1
+obj crate 77 0
+
+map:
+c.....................................
+..#
+..#
+..#
+..#
+..#...~~~~~~~~~~+~~~~~~~~~~~+~~~
+..#.........+...........+
+..#.....+...........+
+..#
+.
+.
+......&..&..&..&..&..&..&..&..&...|
+portal cube 2 1
+obj rainbow 4 0 c=0
+obj theme_morph 5 0 c=7

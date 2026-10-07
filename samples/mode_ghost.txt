@@ -1,0 +1,255 @@
+# GHOST: hold X to turn see-through and float through ghost walls. Spikes
+# still hurt, the meter fills on the ground, and a ghost bridge holds you only solid.
+name: BOO WHO
+author: DAD
+speed: 1
+song: 3
+colors: #08001a #2a1060 #120430 #b9a0ff
+
+map:
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+..................
+......^...........
+portal ghost 14 1
+
+map:
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+................................................................
+obj ghost_wall 8 0
+obj ghost_wall 8 1
+obj ghost_wall 8 2
+obj ghost_wall 8 3
+obj ghost_wall 8 4
+obj ghost_wall 9 0
+obj ghost_wall 9 1
+obj ghost_wall 9 2
+obj ghost_wall 9 3
+obj ghost_wall 9 4
+obj ghost_wall 22 0
+obj ghost_wall 22 1
+obj ghost_wall 22 2
+obj ghost_wall 22 3
+obj ghost_wall 22 4
+obj ghost_wall 23 0
+obj ghost_wall 23 1
+obj ghost_wall 23 2
+obj ghost_wall 23 3
+obj ghost_wall 23 4
+obj ghost_wall 36 0
+obj ghost_wall 36 1
+obj ghost_wall 36 2
+obj ghost_wall 36 3
+obj ghost_wall 36 4
+obj ghost_wall 37 0
+obj ghost_wall 37 1
+obj ghost_wall 37 2
+obj ghost_wall 37 3
+obj ghost_wall 37 4
+obj ghost_wall 50 0
+obj ghost_wall 50 1
+obj ghost_wall 50 2
+obj ghost_wall 50 3
+obj ghost_wall 50 4
+obj ghost_wall 51 0
+obj ghost_wall 51 1
+obj ghost_wall 51 2
+obj ghost_wall 51 3
+obj ghost_wall 51 4
+
+map:
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+...................vvvvvvvvvvvvvvvv.........................
+............................................................
+............................................................
+............................................##..............
+........^^^^................................##..^^^^........
+obj ghost_wall 6 0
+obj ghost_wall 6 1
+obj ghost_wall 6 2
+obj ghost_wall 6 3
+obj ghost_wall 6 4
+obj ghost_wall 6 5
+obj ghost_wall 7 0
+obj ghost_wall 7 1
+obj ghost_wall 7 2
+obj ghost_wall 7 3
+obj ghost_wall 7 4
+obj ghost_wall 7 5
+obj ghost_wall 26 0
+obj ghost_wall 26 1
+obj ghost_wall 26 2
+obj ghost_wall 26 3
+obj ghost_wall 32 0
+obj ghost_wall 32 1
+obj ghost_wall 32 2
+obj ghost_wall 32 3
+obj ghost_wall 46 0
+obj ghost_wall 46 1
+obj ghost_wall 46 2
+obj ghost_wall 46 3
+obj ghost_wall 46 4
+obj ghost_wall 46 5
+obj ghost_wall 47 0
+obj ghost_wall 47 1
+obj ghost_wall 47 2
+obj ghost_wall 47 3
+obj ghost_wall 47 4
+obj ghost_wall 47 5
+
+map:
+............##..............##..................................
+............##..............##..................................
+............##..............##..................................
+............##..............##..................................
+............##..............##..................................
+............##..............##..................................
+................................................................
+................................................................
+................................................................
+......^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^.......................
+obj ghost_wall 4 1
+obj ghost_wall 5 1
+obj ghost_wall 6 1
+obj ghost_wall 7 1
+obj ghost_wall 8 1
+obj ghost_wall 9 1
+obj ghost_wall 10 1
+obj ghost_wall 11 1
+obj ghost_wall 12 1
+obj ghost_wall 13 1
+obj ghost_wall 14 1
+obj ghost_wall 15 1
+obj ghost_wall 16 1
+obj ghost_wall 17 1
+obj ghost_wall 18 1
+obj ghost_wall 19 1
+obj ghost_wall 20 1
+obj ghost_wall 21 1
+obj ghost_wall 22 1
+obj ghost_wall 23 1
+obj ghost_wall 24 1
+obj ghost_wall 25 1
+obj ghost_wall 26 1
+obj ghost_wall 27 1
+obj ghost_wall 28 1
+obj ghost_wall 29 1
+obj ghost_wall 30 1
+obj ghost_wall 31 1
+obj ghost_wall 32 1
+obj ghost_wall 33 1
+obj ghost_wall 34 1
+obj ghost_wall 35 1
+obj ghost_wall 36 1
+obj ghost_wall 37 1
+obj ghost_wall 38 1
+obj ghost_wall 39 1
+obj ghost_wall 40 1
+obj ghost_wall 41 1
+obj ghost_wall 12 2
+obj ghost_wall 12 3
+obj ghost_wall 13 2
+obj ghost_wall 13 3
+obj ghost_wall 28 2
+obj ghost_wall 28 3
+obj ghost_wall 29 2
+obj ghost_wall 29 3
+obj ghost_wall 52 0
+obj ghost_wall 52 1
+obj ghost_wall 52 2
+obj ghost_wall 52 3
+obj ghost_wall 52 4
+obj ghost_wall 52 5
+obj ghost_wall 52 6
+obj ghost_wall 53 0
+obj ghost_wall 53 1
+obj ghost_wall 53 2
+obj ghost_wall 53 3
+obj ghost_wall 53 4
+obj ghost_wall 53 5
+obj ghost_wall 53 6
+
+map:
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+........................................................
+.........^......^......^......^......^......^......^....
+obj ghost_wall 6 0
+obj ghost_wall 6 1
+obj ghost_wall 6 2
+obj ghost_wall 6 3
+obj ghost_wall 6 4
+obj ghost_wall 6 5
+obj ghost_wall 13 0
+obj ghost_wall 13 1
+obj ghost_wall 13 2
+obj ghost_wall 13 3
+obj ghost_wall 13 4
+obj ghost_wall 13 5
+obj ghost_wall 20 0
+obj ghost_wall 20 1
+obj ghost_wall 20 2
+obj ghost_wall 20 3
+obj ghost_wall 20 4
+obj ghost_wall 20 5
+obj ghost_wall 27 0
+obj ghost_wall 27 1
+obj ghost_wall 27 2
+obj ghost_wall 27 3
+obj ghost_wall 27 4
+obj ghost_wall 27 5
+obj ghost_wall 34 0
+obj ghost_wall 34 1
+obj ghost_wall 34 2
+obj ghost_wall 34 3
+obj ghost_wall 34 4
+obj ghost_wall 34 5
+obj ghost_wall 41 0
+obj ghost_wall 41 1
+obj ghost_wall 41 2
+obj ghost_wall 41 3
+obj ghost_wall 41 4
+obj ghost_wall 41 5
+obj ghost_wall 48 0
+obj ghost_wall 48 1
+obj ghost_wall 48 2
+obj ghost_wall 48 3
+obj ghost_wall 48 4
+obj ghost_wall 48 5
+
+map:
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+..............^.......^......|
+portal cube 3 1

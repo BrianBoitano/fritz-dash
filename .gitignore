@@ -1,0 +1,5 @@
+build/
+__pycache__/
+*.pyc
+SDL2-*/
+SDL2-devel-*
